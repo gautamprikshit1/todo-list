@@ -8,7 +8,11 @@ import Todo from './components/Todo';
 
 export default {
   name: 'App',
-  components: { Todo }
+  setup() {
+    return {
+      Todo,
+    }
+  }
 }
 </script>
 
